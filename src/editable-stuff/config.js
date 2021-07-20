@@ -52,7 +52,7 @@ const about = {
   show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/SupreethSKaran.jpg"),
-  imageSize: 375,
+  imageSize: 385,
   message:
     "My name is Supreeth S Karan. I’m an undergraduate researcher from International Institute of Information Technology at Hyderabad with a dual degree in Electronics and Communication Engineering with MS in research. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
   resume: " ",

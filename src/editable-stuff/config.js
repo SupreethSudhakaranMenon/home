@@ -55,8 +55,10 @@ const about = {
   imageSize: 385,
   message:
     "My name is Supreeth S Karan. I’m an undergraduate researcher from International Institute of Information Technology at Hyderabad with a dual degree in Electronics and Communication Engineering with MS in research. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: " ",
+  resume: require("../editable-stuff/resume.pdf"),
 };
+
+
 
 // PROJECTS SECTION
 // Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
@@ -103,10 +105,10 @@ const skills = {
     { name: "Python", value: 90 },
     { name: "SQL", value: 75 },
     { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
+    { name: "C/C++", value: 75 },
     { name: "JavaScript", value: 90 },
     { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
+    { name: "HTML/CSS", value: 75 },
     { name: "C#", value: 80 },
   ],
   softSkills: [
@@ -131,18 +133,29 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Student Software Developer',// Here Add Company Name
+      companylogo: require('../assets/img/GSoC.png'),
+      date: 'May 2019 – August 2019',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Student Mentor', 
+      companylogo: require('../assets/img/gci.png'), 
+      date: 'December 2019 – January 2020'
+    },
+    {
+
+      role: 'Open-Source Contributor',
+      companylogo: require('../assets/img/mifos.png'),
+      date: 'October 2018 – November 2019',
+    },
+    {
+      role: 'Machine Learning Scorecard for Credit Risk Assessment',
+      companylogo: require('../assets/img/badge_apache_re.png'),
+      date: 'October 2018 - December 2019'
     },
   ]
 }
